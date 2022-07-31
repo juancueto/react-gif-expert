@@ -1,0 +1,15 @@
+// Se cambio nombre de archivo: babel.config.js => babel.config.json
+
+// module.export = {
+//     presets: [
+//         [ '@babel/preset-env', { targets: { esmodules: true} } ],
+//         [ '@babel/preset-react', { runtime: 'automatic' } ],
+//     ]
+// }
+
+{
+    "presets": [
+        [ "@babel/preset-env", { "targets": { "esmodules": true} } ],
+        [ "@babel/preset-react", { "runtime": "automatic" } ]
+    ]
+}
