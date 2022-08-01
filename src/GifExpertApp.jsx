@@ -3,7 +3,7 @@ import { useState } from "react";
 // import { GifGrid } from "./components/GifGrid";
 import { AddCategory, GifGrid } from "./components";
 
-export  const GitExpertApp = () => {
+export  const GifExpertApp = () => {
 
     const [categories, setCategories] = useState(['One Punch']);
 
@@ -11,6 +11,7 @@ export  const GitExpertApp = () => {
     const onAddCategory = (newCategory) => {
         // categories.push(newCategory);
         // console.log(newCategory);
+        
         if(categories.includes(newCategory)) return;
 
         setCategories([newCategory, ...categories]);
